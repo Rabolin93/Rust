@@ -1,0 +1,14 @@
+fn main() {
+	let a:f32=1.0;
+	let b:f32=1.0;
+	let c:f32=1.0;
+
+
+	let mut delta:f32=(b*b)-4.0*a*c;
+
+	println!("Delta: {}",delta);
+	if delta<0.
+0{
+		println!("Square of delta",delta.sqrt());
+	}
+}
